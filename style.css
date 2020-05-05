@@ -1,3 +1,5 @@
+/* Les Fonts */
+
 @font-face {
 	font-family: 'Rubik-Medium';
 	src: url('fonts/Rubik-Medium.eot');
@@ -22,7 +24,7 @@
 	font-style: normal;
 }
 
-
+/* Desktop Version */
 
 body{
     margin: 0 auto;
