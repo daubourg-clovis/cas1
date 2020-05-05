@@ -43,9 +43,25 @@ body{
     width: 16.875rem;
     height: 18.125rem;
     text-align: center;
+    line-height: 1.875rem;
 }
 
 
 .margin{
     margin-right: 1.75rem;
+}
+
+.picture{ 
+    margin: 3.5625rem 0 2.25rem;
+}
+
+h2{
+    margin: 0;
+    font-size: 1.25rem;
+    color: #2E2E2E;
+    font-family: 'Rubik-Medium', sans-serif;
+}
+
+.paragraph {
+    margin: 1rem 0 3.1875rem;
 }
