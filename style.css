@@ -49,6 +49,7 @@ h1{
     text-align: center;
     font-size: 1.0625rem;
     width: 736px;
+    line-height: 1.875rem;
 }
 
 /* Les boites */
@@ -84,4 +85,41 @@ h2{
 
 .paragraph {
     margin: 1rem 0 3.1875rem;
+}
+
+
+/* Small Screen */
+
+@media(max-width: 480.98px)
+{
+
+body{
+    margin: 0;
+    max-width: 480.98px;
+}
+
+h1{
+    margin: 5%;
+}
+
+
+#titre p{
+    width: 100%;
+    margin: 0;
+}
+
+#boxes{
+    margin: 0 ;
+    display: flex;
+    flex-direction: column;
+}
+
+#boxes div {
+    margin: 5% 25% 0;
+    width: 50%;
+    height: 50%;
+}
+
+
+
 }
