@@ -90,12 +90,12 @@ h2{
 
 /* Small Screen */
 
-@media(max-width: 480.98px)
+@media all and (max-width: 479.98px)
 {
 
 body{
     margin: 0;
-    max-width: 480.98px;
+    max-width: 480px;
 }
 
 h1{
@@ -118,6 +118,24 @@ h1{
     margin: 5% 25% 0;
     width: 50%;
     height: 50%;
+}
+
+}
+
+/* Medium Screen  */
+
+@media(min-width: 480px) and (max-width: 767.98px)
+{
+
+body{
+    margin: 0 auto;
+    max-width: 768px;
+    font-size: 300%;
+    display: none;
+}
+
+section{
+    width: 30px;
 }
 
 
